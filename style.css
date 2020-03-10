@@ -171,7 +171,12 @@ h1 .title{
   }
 
   @media (max-width: 500px) {
-      .home-main-section {
+    
+    body {
+        overflow: hidden;
+    }
+    
+    .home-main-section {
           justify-content: center;
           text-align: center;
           margin-left: 5rem;

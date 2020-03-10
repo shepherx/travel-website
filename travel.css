@@ -63,6 +63,11 @@
 }
 
 @media (max-width:500px) {
+    
+    body {
+        overflow: hidden;
+    }
+   
     .big-header {
         text-align: center;
         margin-left: 95px;
