@@ -170,7 +170,7 @@ h1 .title{
     margin: 5px;
   }
 
-  @media (max-width: 900px) {
+  @media (min-width: 400px) {
       .home-main-section {
           justify-content: center;
           text-align: center;

@@ -62,7 +62,7 @@
     margin-left: -5.5rem;
 }
 
-@media (max-width:700px) {
+@media (min-width:400px) {
     .big-header {
         text-align: center;
         margin-left: 95px;
@@ -79,5 +79,9 @@
         right: 100px;
         padding-top: 20px;
         justify-content: space-between;
+    }
+    .container {
+        bottom: 0;
+        position: relative;
     }
 }
