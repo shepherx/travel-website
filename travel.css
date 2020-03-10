@@ -62,7 +62,7 @@
     margin-left: -5.5rem;
 }
 
-@media (min-width:400px) {
+@media (max-width:500px) {
     .big-header {
         text-align: center;
         margin-left: 95px;
