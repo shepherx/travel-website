@@ -188,4 +188,12 @@ h1 .title{
       .big-header .title {
           margin-top: 10rem;
       }
+
+      .main-nav ul {
+        display: flex;
+        flex-direction: column;
+        right: 100px;
+        padding-top: 20px;
+        justify-content: space-between;
+    }
   }
