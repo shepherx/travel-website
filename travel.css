@@ -50,7 +50,7 @@
 }
 
 .travel-section .guy-img {
-    background-image: url(/img/man.png);
+    background-image: url(man.png);
     flex-grow: 1;
     /* max-height: 70vh;
     min-width: 30vw; */

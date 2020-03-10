@@ -74,7 +74,7 @@ body {
 }
 
 .home-main-section .lady-img {
-    background-image: url(/img/girl.png);
+    background-image: url(girl.png);
     flex-grow: 1;
     /* max-height: 70vh;
     min-width: 30vw; */
