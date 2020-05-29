@@ -1,92 +1,91 @@
 .main-footer {
-    background-color: #C4C4C4;
-    flex-shrink: 0;
-    width: 100vw;
-    bottom: 10rem;
-    height: 80px;
+  background-color: #c4c4c4;
+  flex-shrink: 0;
+  width: 100vw;
+  bottom: 10rem;
+  height: 80px;
 }
 
 .container {
-    display: flex;
-    flex: 1 0 auto;
-    position: absolute;
-    bottom: 0;
+  display: flex;
+  flex: 1 0 auto;
+  position: absolute;
+  bottom: 0;
 }
 
 .social-icons {
-    top: 700px;
+  top: 700px;
 }
 
 .about-contact {
-    list-style: none;
-    flex-direction: row;
-    display: flex;
-    cursor: pointer;
-    padding-top: 13px;
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  cursor: pointer;
+  padding-top: 13px;
 }
 
 .about {
-    margin-right: 50px;
-    margin-left: 100px;
-    font-size: 16px;
+  margin-right: 50px;
+  margin-left: 100px;
+  font-size: 16px;
 }
-.contact{
-    font-size: 16px;
+.contact {
+  font-size: 16px;
 }
 
 .travel-section {
-    display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-    flex-grow: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .travel-section .img-wrapper {
-    flex-grow: 1;
-    flex-direction: column;
-    display: flex;
-    align-items: stretch;
-    justify-content: flex-start;
+  flex-grow: 1;
+  flex-direction: column;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
 }
 
 .travel-section .guy-img {
-    background-image: url(man.png);
-    flex-grow: 1;
-    /* max-height: 70vh;
+  background-image: url(man.png);
+  flex-grow: 1;
+  /* max-height: 70vh;
     min-width: 30vw; */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    height: 80vh;
-    margin-top: 6.3rem;
-    margin-left: -5.5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 80vh;
+  margin-top: 6.3rem;
+  margin-left: -5.5rem;
 }
 
-@media (max-width:768px) {
-    
-    body {
-        overflow: hidden;
-    }
-   
-    .big-header {
-        text-align: center;
-        margin-left: 95px;
-    }
+@media (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
 
-    .social-icons img {
-        display: flex;
-        align-self: center;
-    }
+  .big-header {
+    text-align: center;
+    margin-left: 95px;
+  }
 
-    .main-nav ul {
-        display: flex;
-        flex-direction: column;
-        right: 100px;
-        padding-top: 20px;
-        justify-content: space-between;
-    }
-    .container {
-        bottom: 0;
-        position: relative;
-    }
+  .social-icons img {
+    display: flex;
+    align-self: center;
+  }
+
+  .main-nav ul {
+    display: flex;
+    flex-direction: column;
+    right: 100px;
+    padding-top: 20px;
+    justify-content: space-between;
+  }
+  .container {
+    bottom: 0;
+    position: relative;
+  }
 }

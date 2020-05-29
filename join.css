@@ -1,93 +1,92 @@
 .main-footer {
-    background-color: #C4C4C4;
-    flex-shrink: 0;
-    width: 100vw;
-    bottom: 10rem;
-    height: 80px;
+  background-color: #c4c4c4;
+  flex-shrink: 0;
+  width: 100vw;
+  bottom: 10rem;
+  height: 80px;
 }
 
 .container {
-    display: flex;
-    flex: 1 0 auto;
-    position: absolute;
-    bottom: 0;
+  display: flex;
+  flex: 1 0 auto;
+  position: absolute;
+  bottom: 0;
 }
 
 .social-icons {
-    top: 700px;
+  top: 700px;
 }
 
 .about-contact {
-    list-style: none;
-    flex-direction: row;
-    display: flex;
-    cursor: pointer;
-    padding-top: 13px;
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  cursor: pointer;
+  padding-top: 13px;
 }
 
 .about {
-    margin-right: 50px;
-    margin-left: 100px;
-    font-size: 16px;
+  margin-right: 50px;
+  margin-left: 100px;
+  font-size: 16px;
 }
-.contact{
-    font-size: 16px;
+.contact {
+  font-size: 16px;
 }
 
 .join-section {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  align-items: center;
 }
 
 .join-form {
-    background-color: #C4C4C4;
-    width: 35vw;
-    width: 510px;
-    padding: 2rem 4rem;
-    border-radius: 20px;
-    margin-top: 100px;
+  background-color: #c4c4c4;
+  width: 35vw;
+  width: 510px;
+  padding: 2rem 4rem;
+  border-radius: 20px;
+  margin-top: 100px;
 }
 
 .input-group {
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .input-group:last-child {
-    margin-bottom: 0;
-  }
-  
-  .input-group label {
-    font-weight: bold;
-    margin-bottom: .5rem;
-  }
-  
-  .input-group input {
-    outline: none;
-    background-color: #BDCCE8;
-    border: 3px solid #fff;
-    font-size: 1em;
-    padding: .5em;
-    color: inherit;
-    border-radius: 5px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
 
-  }
+.input-group:last-child {
+  margin-bottom: 0;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  outline: none;
+  background-color: #bdcce8;
+  border: 3px solid #fff;
+  font-size: 1em;
+  padding: 0.5em;
+  color: inherit;
+  border-radius: 5px;
+}
 
 .btn {
-    width: 120px;
-    border: 3px solid #BDCCE8;
+  width: 120px;
+  border: 3px solid #bdcce8;
 }
-  
-  .input-group input:focus {
-    border-color: #596da0;
-  }
+
+.input-group input:focus {
+  border-color: #596da0;
+}
 
 .big-header .title {
-    justify-content: space-between;
-    margin-left: 100px;
+  justify-content: space-between;
+  margin-left: 100px;
 }
 
 /* .title h1 {
@@ -95,53 +94,53 @@
 } */
 
 .accented-text {
-    color: #FCECDD;
+  color: #fcecdd;
 }
 
 .subtitle {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
-@media (max-width:768px) {
-    body {
-        overflow: hidden;
-    }
-    
-    .join-section {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+@media (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
 
-    .subtitle {
-        display: inline-flex;
-        margin-bottom: 0;
-    }
-    body {
-        overflow: visible;
-    }
+  .join-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    .container {
-        bottom: 0;
-        position: relative;
-    }
+  .subtitle {
+    display: inline-flex;
+    margin-bottom: 0;
+  }
+  body {
+    overflow: visible;
+  }
 
-    .main-nav ul {
-        display: flex;
-        flex-direction: column;
-        right: 100px;
-        padding-top: 20px;
-        justify-content: space-between;
-    }
+  .container {
+    bottom: 0;
+    position: relative;
+  }
 
-    .join-form {
-        width: 80vw;
-        height: 420px;
-        margin-bottom: 100px;
-    }
+  .main-nav ul {
+    display: flex;
+    flex-direction: column;
+    right: 100px;
+    padding-top: 20px;
+    justify-content: space-between;
+  }
 
-    .btn {
-        position: absolute;
-        right: 180px;
-    }
+  .join-form {
+    width: 80vw;
+    height: 420px;
+    margin-bottom: 100px;
+  }
+
+  .btn {
+    position: absolute;
+    right: 180px;
+  }
 }
